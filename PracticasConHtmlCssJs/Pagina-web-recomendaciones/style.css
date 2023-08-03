@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    background-color: #264653;
+    color: #e76f51;
+    font-family: 'Lato', sans-serif;    
+}
+
+/* Navegación */
+
+ol {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-nav {
+    list-style: none;
+}
+
+.enlace-nav {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Main */
+
+main {
+    margin-top: 3%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.texto-principal {
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Actualidad / Históricas */
+
+h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.texto-pelicula {
+    font-size: 20px;
+    margin-right: 40%;
+}
+
+iframe {
+    margin-left: 5%;
+}
+
+audio {
+    margin-left: 5%;
+}
+
+/* Tu recomendación*/
+
+label, input, textarea, button {
+    font-size: 20px;
+    width: 30%;
+}
+  
+textarea {
+    border: 1px solid black;
+}

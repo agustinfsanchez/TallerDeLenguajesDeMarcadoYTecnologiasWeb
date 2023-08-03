@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Lato', sans-serif;    
+}
+
+section {
+    text-align: center;
+}
+
+/* Barra de navegación */
+
+.listado-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista-nav {
+    list-style: none;
+}
+
+.enlace-nav {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Sobre mí */
+
+#sobre-mi {
+    margin-top: 5%;
+}
+
+img {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+.sub-titulo-principal {
+    font-size: 30px;
+    margin-bottom: 3%;
+    margin-left: 20%;  
+    margin-right: 20%;
+}
+
+.sub-titulos-section {
+    text-decoration: underline;
+}
+
+span {
+    color: #264653;
+}
+
+.texto-sobre-mi {
+    margin: 0% 18% 0% 18%;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 200%;
+    margin-bottom: 3%;
+}   
+
+.titulo-lista-desordenada, .titulo-lista-ordenada {
+    text-align: left;
+}
+
+.dato-de-lista {
+    text-align: left;
+}
+
+/* Educación */
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin: 0% 20% 5% 20%;
+}
+
+/* Mis trabajos */
+
+table {
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+/* Contactos */
+
+.enlace-contacto {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 25px;
+    font-weight: 700;      
+}  
+
+/* Footer */
+
+footer {
+    margin-top: 3%;
+    text-align: end;
+}

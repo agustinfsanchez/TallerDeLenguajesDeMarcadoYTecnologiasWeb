@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web de Recomendaciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li class="lista-nav"><a href="#actualidad" class="enlace-nav">Actualidad</a></li>
+                <li class="lista-nav"><a href="#historicas" class="enlace-nav">Históricas</a></li>
+                <li class="lista-nav"><a href="#tu-recomendacion" class="enlace-nav">Tu recomendación</a></li>
+            </ol>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h1>Recomendaciones de las mejores peliculas de la Actualidad y la Historia!</h1>
+        <p class="texto-principal">
+            Encuentra todas las películas recomendadas en Recomendaciones.com, 
+            para verlas o verlas de nuevo, solo, en familia o con amigos.
+        </p>
+    </main>
+    <hr>
+    <section id="actualidad">
+        <h2>ACTUALIDAD</h2>
+        <h3>Granizo</h3>
+        <p class="texto-pelicula">
+            Miguel Flores es un meteorólogo con una carrera infalible, 
+            pero un día falla en la predicción del pronóstico cuando no 
+            puede advertir sobre la llegada de una tormenta de granizo, 
+            lo cual le causa varios problemas como el enojo de la audiencia 
+            que lo convierte en un enemigo público y él decide escapar a su 
+            ciudad natal, Córdoba, a casa de su hija, donde se reencontrará 
+            con su pasado y se descubrirá a sí mismo en el proceso. 
+        </p>
+        <img src="granizo.png" width="15%" height="15%" alt="foto granizo película" title="Granizo Película">
+        <iframe width="360" height="215" src="https://www.youtube.com/embed/-F2watcvQQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <hr>
+    <section id="historicas">
+        <h2>HISTÓRICAS</h2>
+        <h3>El Padrino</h3>
+        <p class="texto-pelicula">
+            Don Vito Corleone es el respetado y temido jefe de una de 
+            las cinco familias de la mafia de Nueva York. Tiene cuatro hijos: 
+            Connie, el impulsivo Sonny, el pusilánime Fredo y Michael, 
+            que no quiere saber nada de los negocios de su padre. 
+            Cuando Corleone, en contra de los consejos de 'Il consigliere' 
+            Tom Hagen, se niega a participar en el negocio de las drogas, 
+            el jefe de otra banda ordena su asesinato. Empieza entonces 
+            una violenta y cruenta guerra entre las familias mafiosas.
+        </p>
+        <img src="elpadrino.png" width="15%" height="15%" alt="foto el padrino película" title="El Padrino Película">
+        <iframe width="360" height="215" src="https://www.youtube.com/embed/iOyQx7MXaz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <audio controls>
+            <source src="elpadrino.mp3" type"audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    <hr>
+    <section id="tu-recomendacion">
+        <h2>TU RECOMENDACIÓN</h2>
+        <h3>Dejanos tu recomendación:</h3>
+        <form>
+            <label for= "nombre" class= "campos">Nombre y apellido</label><br><br>
+            <input type="text" name="nombre" id="nombre"><br><br>
+            <label for="email" class= "campos">E-mail de contacto</label><br><br>
+            <input type="text" name="email" id="email"><br><br>
+
+            <label for="sexo" class="sexos">Eres:</label><br><br>
+            <label for="sexo" class="sexos">Hombre</label>
+            <input type="radio" name="hombre" id="hombre"><br><br>
+            <label for="sexo" class="sexos">Mujer</label>
+            <input type="radio" name="mujer" id="mujer"><br><br>
+            <label for="sexo" class="sexos">Otro</label>
+            <input type="radio" name="otro" id="otro"><br><br>
+
+            <label for="topic-fav" class="topic-favs">Tu topic favorito:</label><br><br>
+            <label for="topic" class="topics">Comedia</label>
+            <input type="checkbox" name="comedia" id="comedia"><br><br>
+            <label for="topic" class="topics">Acción</label>
+            <input type="checkbox" name="accion" id="accion"><br><br>
+            <label for="topic" class="topics">Drama</label>
+            <input type="checkbox" name="drama" id="drama"><br><br>
+
+            <label for= "recomendación" class= "campos">Tu recomendación:</label><br><br>
+            <textarea name="recomendación" id="recomendación"></textarea><br><br>
+            <button type="submit">Enviar recomendación</button>
+          </form>
+    </section>
+</body>
+</html>
